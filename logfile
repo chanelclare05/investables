@@ -1,0 +1,2 @@
+2021-11-08 17:20:36.310 AEDT [15672] FATAL:  database files are incompatible with server
+2021-11-08 17:20:36.310 AEDT [15672] DETAIL:  The data directory was initialized by PostgreSQL version 13, which is not compatible with this version 14.0.
