@@ -18,13 +18,34 @@
 
 
 .navbar {
-  background-color: pink;
+  background-color: #ffd1dc;
   color: white;
   text-decoration: none !important;
+}
 
+.navbar-brand {
+  background-color: #ffd1dc;
+  color: white;
+  text-decoration: none !important;
+  font-size: 2rem;
+}
+
+.navbar-brand:hover {
+  color: hotpink;
+  transition: 1s;
 }
 
 .alert {
   margin: 1em;
   padding: 1em;
+}
+
+.nav-link {
+  color: hotpink;
+}
+
+.nav-link:hover {
+  color: white;
+  font-weight: 800px;
+  transition: 0.5s;
 }
