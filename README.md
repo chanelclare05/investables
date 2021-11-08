@@ -1,25 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+# Investables
 
-* System dependencies
+This is a rails application using Rails 6 for back-end and front-end development. 
 
-* Configuration
+This app desgined to make investing and researching stock digestable, therefore 'Investables". It is a social media stock tracker app and can be used on mobile or web. 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# investables
