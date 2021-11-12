@@ -7,4 +7,9 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+
+  def my_potfolio
+    @userstock = User.find
+  end 
+
 end
