@@ -15,4 +15,9 @@ class Stock < ApplicationRecord
     end 
   end 
 
+  def self.check_db(ticker_symbol)
+    #Stock model is implied, can do Stock.where also
+    where(ticker: ticker_symbol).first
+  end 
+
 end

@@ -8,7 +8,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  def my_potfolio
+  def my_portfolio
     @userstock = User.find
   end 
 
